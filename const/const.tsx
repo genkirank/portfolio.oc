@@ -1,9 +1,9 @@
 export const Projects = [
   {
-    title: 'Qwenta',
+    title: 'Argent Bank',
     description:
-      "Création de spécifiaction techniques et gestions de projet pour le développement d'une application web pour Qwenta.",
-    image: "/Qwenta.png",
+      "Application bancaire front-end avec React & Redux : login sécurisé, profil utilisateur, code optimisé et composants réutilisables.",
+    image: "/ArgentBank.png",
     className: 'md:col-span-2 ',
     link: 'https://projet10.vercel.app',
   },
@@ -13,5 +13,5 @@ export const Projects = [
     image: '/Nina-carducci.png',
     className: 'md:col-span-1 p-4',
     link: 'https://genkirank.github.io/projet8/'
-  },
+  }, 
 ]
