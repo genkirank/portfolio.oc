@@ -15,9 +15,9 @@ export default function Header() {
               >
                 <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/20 to-primary/0 animate-pulse" />
                 <img
-                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=800"
+                  src="/image.png"
                   alt="Raphael Luis"
-                  className="relative rounded-3xl object-cover w-full h-full shadow-xl"
+                  className="relative rounded-3xl  object-cover w-full h-full shadow-xl"
                 />
               </motion.div>
 
