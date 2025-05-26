@@ -22,7 +22,7 @@ export const GlowingStarsBackgroundCard = ({
         setMouseEnter(false);
       }}
       className={cn(
-        "bg-[linear-gradient(110deg,#333_0.6%,#222)] p-6 max-w-xl max-h-[28rem] h-full w-full rounded-xl border border-[#eaeaea] dark:border-neutral-600",
+        "bg-[linear-gradient(110deg,#333_0.6%,#222)] p-6 max-w-xl max-h-[35rem] h-full w-full rounded-xl border border-[#eaeaea] dark:border-neutral-600",
         className
       )}
     >
@@ -76,7 +76,7 @@ export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
         Math.floor(Math.random() * stars)
       );
       setGlowingStars([...highlightedStars.current]);
-    }, 3000);
+    }, 3500);
 
     return () => clearInterval(interval);
   }, []);
@@ -113,7 +113,6 @@ export const Illustration = ({ mouseEnter }: { mouseEnter: boolean }) => {
     </div>
   );
 };
-
 const Star = ({ isGlowing, delay }: { isGlowing: boolean; delay: number }) => {
   return (
     <motion.div
@@ -134,7 +133,6 @@ const Star = ({ isGlowing, delay }: { isGlowing: boolean; delay: number }) => {
     ></motion.div>
   );
 };
-
 const Glow = ({ delay }: { delay: number }) => {
   return (
     <motion.div

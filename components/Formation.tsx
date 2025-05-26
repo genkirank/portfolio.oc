@@ -9,7 +9,7 @@ import {
 
 export function Formation() {
     return (
-                <section className="py-24 px-6 md:px-12 max-w-6xl mx-auto">
+                <section className="py-24 px-6 max-w-6xl mx-auto">
 
              <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -22,13 +22,13 @@ export function Formation() {
     <div className="flex py-24 items-center justify-center antialiased w-full">
       <GlowingStarsBackgroundCard>
         <GlowingStarsTitle>Formation Intégrateur Web – OpenClassrooms </GlowingStarsTitle>
-                        <div className="flex justify-between items-end">
-                            <div className="overflow-y-auto">
+                        <div className="flex justify-between items-end ">
+                           
           <GlowingStarsDescription>
             Programme bac+2  pour maîtriser le développement front-end (HTML, CSS, JS, React, Redux).
 12 projets professionnels, mentorat personnalisé, certification RNCP niveau 5.
                                 </GlowingStarsDescription>
-                                </div>
+                              
           <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
             <Icon />
           </div>

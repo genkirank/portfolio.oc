@@ -12,7 +12,7 @@ export function RecentProjects() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl font-bold mb-12">Recent Projects</h2>
+          <h2 className="text-3xl font-bold mb-12">Projects & Skills Developed</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 justify-center justify-items-center">
             {Projects.map((project, index) => (
               <motion.div
@@ -36,7 +36,7 @@ export function RecentProjects() {
                     {project.title}
                     <ExternalLink size={16} className="opacity-0 group-hover:opacity-100 transition-opacity" />
                   </h3>
-                  <p className="text-muted-foreground">{project.description}</p>
+                  <p className="text-muted-foreground">{project.competence}</p>
                 </Link>
               </motion.div>
             ))}
