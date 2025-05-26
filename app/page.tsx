@@ -10,6 +10,7 @@ import { AboutMe } from "@/components/AboutMe";
 import { RecentProjects } from "@/components/RecentProjects";
 import Skills from "@/components/Skils";
 import Footer from "@/components/Footer";
+import { Formation } from "@/components/Formation";
 
 export default function Home() {
   return (
@@ -34,7 +35,9 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <AboutMe/>
+      <AboutMe />
+      {/*Formation*/}
+      <Formation/>
       {/* Projects Section */}
         <RecentProjects/>
       {/* Skills Section */}
